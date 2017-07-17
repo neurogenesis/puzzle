@@ -13,8 +13,6 @@ BOARD = %w{
 
 class PuzzleTest < Minitest::Test
   def puzzle
-    #word_file = File.expand_path('/usr/share/dict/words', __FILE__)
-    #@dictionary = IO.read(word_file)
     @puzzle ||= Puzzle.new(BOARD)
   end
 
