@@ -1,7 +1,7 @@
 
 # https://github.com/guard/guard-minitest
 # gem install guard-minitest
-# gem install minitest/reporters
+# gem install minitest-reporters
 
 guard :shell do
 	# all files containing "_test.rb"
